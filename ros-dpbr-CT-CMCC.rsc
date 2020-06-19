@@ -899,6 +899,7 @@ add list=dpbr-CT address=121.58.156.0/22
 add list=dpbr-CT address=121.59.0.0/20
 add list=dpbr-CT address=121.59.17.0/24
 add list=dpbr-CT address=121.59.30.0/24
+add list=dpbr-CT address=121.59.32.0/24
 add list=dpbr-CT address=121.60.0.0/14
 add list=dpbr-CT address=121.101.208.0/20
 add list=dpbr-CT address=121.201.0.0/17
