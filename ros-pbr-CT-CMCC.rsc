@@ -908,6 +908,8 @@ add dst-address=121.224.0.0/12 action=lookup table=CT
 add dst-address=122.4.0.0/14 action=lookup table=CT
 add dst-address=122.9.0.0/18 action=lookup table=CT
 add dst-address=122.9.64.0/19 action=lookup table=CT
+add dst-address=122.9.128.0/19 action=lookup table=CT
+add dst-address=122.9.160.0/20 action=lookup table=CT
 add dst-address=122.10.0.0/17 action=lookup table=CT
 add dst-address=122.10.228.0/22 action=lookup table=CT
 add dst-address=122.10.232.0/21 action=lookup table=CT

@@ -908,6 +908,8 @@ add list=dpbr-CT address=121.224.0.0/12
 add list=dpbr-CT address=122.4.0.0/14
 add list=dpbr-CT address=122.9.0.0/18
 add list=dpbr-CT address=122.9.64.0/19
+add list=dpbr-CT address=122.9.128.0/19
+add list=dpbr-CT address=122.9.160.0/20
 add list=dpbr-CT address=122.10.0.0/17
 add list=dpbr-CT address=122.10.228.0/22
 add list=dpbr-CT address=122.10.232.0/21
