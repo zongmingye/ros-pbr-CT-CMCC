@@ -2450,8 +2450,6 @@ add list=dpbr-CMCC address=140.210.16.0/21
 add list=dpbr-CMCC address=140.210.24.0/23
 add list=dpbr-CMCC address=140.210.26.0/24
 add list=dpbr-CMCC address=140.210.64.0/18
-add list=dpbr-CMCC address=140.242.223.0/24
-add list=dpbr-CMCC address=140.242.224.0/24
 add list=dpbr-CMCC address=144.36.146.0/23
 add list=dpbr-CMCC address=144.48.64.0/22
 add list=dpbr-CMCC address=146.196.68.0/22
