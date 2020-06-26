@@ -1525,7 +1525,6 @@ add list=dpbr-CT address=218.97.240.0/20
 add list=dpbr-CT address=218.98.96.0/21
 add list=dpbr-CT address=218.98.104.0/22
 add list=dpbr-CT address=218.98.108.0/23
-add list=dpbr-CT address=218.98.111.0/24
 add list=dpbr-CT address=218.98.112.0/20
 add list=dpbr-CT address=218.100.88.0/21
 add list=dpbr-CT address=218.108.0.0/15
