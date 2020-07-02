@@ -1,6 +1,6 @@
 电信移动 策略路由规则
 
-ip段信息取自 https://bgp.space/
+ip段信息取自 https://ispip.clang.cn
 
 每日凌晨2点自动更新于此（如有更新）。
 
