@@ -1,21 +1,21 @@
 #!/bin/sh
-
+rm -rf /tmp/pbr
 mkdir -p /tmp/pbr
 
 #电信
-curl https://ispip.clang.cn/chinatelecom_cidr.txt > /tmp/pbr/ct.txt
+wget --no-check-certificate -O /tmp/pbr/ct.txt https://ispip.clang.cn/chinatelecom_cidr.txt
 #联通
-curl https://ispip.clang.cn/unicom_cnc_cidr.txt > /tmp/pbr/cnc.txt
+wget --no-check-certificate -O /tmp/pbr/cnc.txt https://ispip.clang.cn/unicom_cnc_cidr.txt
 #移动
-curl https://ispip.clang.cn/cmcc_cidr.txt > /tmp/pbr/cmcc.txt
+wget --no-check-certificate -O /tmp/pbr/cmcc.txt https://ispip.clang.cn/cmcc_cidr.txt
 #铁通
-curl https://ispip.clang.cn/crtc_cidr.txt > /tmp/pbr/crtc.txt
+wget --no-check-certificate -O /tmp/pbr/crtc.txt https://ispip.clang.cn/crtc_cidr.txt
 #教育网
-curl https://ispip.clang.cn/cernet_cidr.txt > /tmp/pbr/cernet.txt
+wget --no-check-certificate -O /tmp/pbr/cernet.txt https://ispip.clang.cn/cernet_cidr.txt
 #长城宽带/鹏博士
-curl https://ispip.clang.cn/gwbn_cidr.txt > /tmp/pbr/gwbn.txt
+wget --no-check-certificate -O /tmp/pbr/gwbn.txt https://ispip.clang.cn/gwbn_cidr.txt
 #其他
-curl https://ispip.clang.cn/othernet_cidr.txt > /tmp/pbr/other.txt
+wget --no-check-certificate -O /tmp/pbr/other.txt https://ispip.clang.cn/othernet_cidr.txt
 
 {
 echo "/ip route rule"
